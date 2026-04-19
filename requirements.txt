@@ -1,0 +1,12 @@
+# --- Core Web Framework ---
+streamlit             # This builds the website/dashboard interface
+
+# --- API & Networking ---
+requests              # Used to send data to Sightengine and News API
+python-dotenv         # Secretly loads your API keys from the .env file
+
+# --- Artificial Intelligence ---
+google-generativeai   # Connects the app to Google's Gemini AI
+
+# --- Image Handling (Optional but recommended) ---
+Pillow                # Helps Python process and resize your uploaded images
