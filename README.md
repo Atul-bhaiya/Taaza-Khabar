@@ -1,2 +1,9 @@
-# Taaza-Khabar
-Taaza-Khabar: Multi-Modal Verifier
+:📡 Taaza-Khabar: Multi-Modal Disinformation DetectionTaaza-Khabar is an advanced AI-driven authentication system designed to combat the spread of digital disinformation. By utilizing a multi-modal approach, the system analyzes both textual news headlines and visual media to provide a comprehensive "Trust Score".🚀 FeaturesLinguistic Analysis: Uses Google Gemini 1.5 Flash to detect emotional manipulation, sensationalism, and bias in news headlines.Forensic Image Scanning: Employs the Sightengine API and Convolutional Neural Networks (CNN) to detect AI-generated artifacts and deepfakes in images.Source Prevalence Check: Cross-references news statements with global databases via the News API to determine source credibility.Weighted Consensus Engine: Provides a final veracity verdict based on a weighted combination of AI scores and historical data.User-Friendly Dashboard: Built with Streamlit for a responsive, interactive experience.🛠️ Tech StackLanguage: Python Framework: Streamlit APIs: Google Gemini (Generative AI), Sightengine (Forensics), News API Environment: Windows/Linux/MacOS📥 InstallationClone the Repository:Bashgit clone https://github.com/YOUR_USERNAME/Taaza-Khabar.git
+cd Taaza-Khabar
+Install Dependencies:Bashpip install -r requirements.txt
+Set Up Environment Variables:Create a .env file in the root directory and add your API keys:Code snippetNEWS_API_KEY=your_news_api_key
+GEMINI_API_KEY=your_gemini_api_key
+SIGHTENGINE_USER=your_sightengine_user_id
+SIGHTENGINE_SECRET=your_sightengine_api_secret
+🏃 ExecutionFor Local Development:Double-click the run_taaza.bat file or run the following command in your terminal:Bashpython -m streamlit run app.py
+For Cloud Deployment:This project is optimized for deployment on Streamlit Community Cloud. Ensure your API keys are added to the "Secrets" section of your Streamlit dashboard.📊 MethodologyTaaza-Khabar utilizes an Exploratory Research Design. The system validates news through a "200 OK" status lifecycle, ensuring data is only processed from healthy, verified third-party servers.📜 LicenseThis project was developed as a Final Year BCA Major Project for Amity University. All rights reserved © 2026.
